@@ -1,4 +1,10 @@
-package main
+// +build integration
+
+// This test file contains integration tests which require an Internet connection
+// and an API key.
+// `go test -tags=integration`
+
+package rockset_test
 
 import (
 	"math/rand"
